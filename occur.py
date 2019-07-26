@@ -7,7 +7,7 @@ for i in range(0,N):
 for i in range(0,N):
     if(a.count(a[i])>1):
         x.append(a[i])
-    elif(a.count(a[i]==1)):
+    elif(a.count(a[i])<1):
         print("unique")
 g=list(set(x))
 for i in range(0,len(g)):
