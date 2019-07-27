@@ -1,11 +1,15 @@
-c=input()
+X=input()
+Y=input()
 a=[]
-x=[]
-for i in range(0,len(c)):
-    a.append(c[i])
-for i in range(0,len(c)):
-    if(a.count(a[i])>1):
-        x.append(a.count(a[i]))
-g=list(set(x))
-print(max(g))
+b=[]
+s=[]
+for i in range(0,len(X)):
+    a.append(X[i])
+for i in range(0,len(Y)):
+    b.append(Y[i])
+for i in range(0,len(X)):
+    if(X[i]==Y[i]):
+        s.append(Y[i])
+f=len(b)-len(s)
+print(f)
                     
