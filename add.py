@@ -9,10 +9,13 @@ for i in range(0,len(a)-1):
         sum1=a[i]+a[j]
         if(sum1==q):
             temp=1
-            print("yes")
             break
     if(temp==1):
         break
+if`(temp==1):
+    print("yes")
+else:
+    print("no")
     
         
         
