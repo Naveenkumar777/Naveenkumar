@@ -12,7 +12,7 @@ for i in range(0,len(a)-1):
             break
     if(temp==1):
         break
-if`(temp==1):
+if(temp==1):
     print("yes")
 else:
     print("no")
