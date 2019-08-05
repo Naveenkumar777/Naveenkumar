@@ -1,8 +1,15 @@
 n=input()
 q=input()
-if(len(n)>=len(q)):
-    for i in range(0,len(n)):
-        print(q[i]+n[i])
-else:
-    for i in range(0,len(q)):
-        print(n[i]+q[i])
+a=[]
+b=[]
+for i in range(0,len(n)):
+    a.append(n[i])
+for i in range(0,len(q)):
+    b.append(q[i])
+if(len(a)!=len(b)):
+    if(len(b)>len(a)):
+        x=len(b)-len(a)
+        for i in range(0,x):
+            a.append(" ")
+for i in range(0,len(b)):
+    print(b[i]+a[i])
