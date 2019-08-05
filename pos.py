@@ -9,6 +9,7 @@ for i in range(0,len(a)):
         if(i%2==1):
             b.append(a[i])
     else:
-        b.append(a[i])
+        if(i%2==0):
+            b.append(a[i])
 for i in range(0,len(b)):
     print(b[i],end=" ")
